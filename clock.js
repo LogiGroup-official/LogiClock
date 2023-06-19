@@ -26,10 +26,10 @@ function calculateTime(){
     
    
     if(hours < 12){
-        type = "Matin";
+        type = "AM";
     }
     else{
-        type = "Soir"
+        type = "PM"
     }
     
     if(hours == 0){
