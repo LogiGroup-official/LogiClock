@@ -24,6 +24,14 @@ function calculateTime(){
     
     // Convert 24-hour clock to AM/PM clock and chosing it according to the time of day
     
+   
+    if(hours < 12){
+        type = "Matin";
+    }
+    else{
+        type = "Soir"
+    }
+    
     if(hours == 0){
         hours = 12;
     }
